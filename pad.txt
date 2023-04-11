@@ -1,0 +1,45 @@
+Documentation
+
+Getting started
+	- What is Print.App
+	- Installation
+	
+Guides
+	- How to create a design
+	- Smart Texts
+	- Display modes
+	- Colors
+	- Fonts
+	- Graphics
+
+
+Solutions
+    - Stationeries
+	- Photo Prints
+	- Garment prints
+	- Large banner prints
+    - Process printing
+    - DTF, DTG, Sublimation
+    - Calendars
+
+
+Customization
+    - Webhooks
+    - Configuration
+
+Installation
+	- Wordpress
+	- Opencart
+	- Prestashop
+	- Shopify
+	- BigCommerce
+	- Wix
+	- Squarespace
+    - Etsy
+	- Custom installation
+	
+Modules
+	- Calendars
+    - Canvas Adjuster
+    - Product Colors
+    - Variable Data
