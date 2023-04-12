@@ -2,48 +2,17 @@
 outline: deep
 ---
 
-# Runtime API Examples
+# Introduction
 
-This page demonstrates usage of some of the runtime APIs provided by VitePress.
+**Print.App** is a comprehensive and versatile software platform that provides a wide range of print solutions and resources to streamline your workflow.
 
-The main `useData()` API can be used to access site, theme, and page data for the current page. It works in both `.md` and `.vue` files:
 
-```md
-<script setup>
-import { useData } from 'vitepress'
+* **Editor**: With a beautiful, fully customizable Web2Print Editor, a modern store front.
+  
+  ![Editor image](./public/assets/docs_editor.png)
 
-const { theme, page, frontmatter } = useData()
-</script>
+* An Imposition platform for post-processing artworks.
+  
+* A dedicated marketplace for printers, you can find digital assets, engage with creatives, print solution providers, and print-on-demand solutions all in one place.
 
-## Results
 
-### Theme Data
-<pre>{{ theme }}</pre>
-
-### Page Data
-<pre>{{ page }}</pre>
-
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
-```
-
-<script setup>
-import { useData } from 'vitepress'
-
-const { site, theme, page, frontmatter } = useData()
-</script>
-
-## Results
-
-### Theme Data
-<pre>{{ theme }}</pre>
-
-### Page Data
-<pre>{{ page }}</pre>
-
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
-
-## More
-
-Check out the documentation for the [full list of runtime APIs](https://vitepress.dev/reference/runtime-api#usedata).

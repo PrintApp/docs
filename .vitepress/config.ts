@@ -3,6 +3,14 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
     title: 'Print.App Docs',
     description: 'Print.App Documentation Site',
+    head: [
+        ['link', { rel: "icon", type: "image/x-icon", href: "/favicon.svg"}],
+        ['link', { rel: "shortcut icon", type: "image/x-icon", href: "/favicon.svg"}],
+        ['link', { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"}],
+    ],
+    lastUpdated: true,
+    cleanUrls: true,
+    appearance: false,
     themeConfig: {
         siteTitle: '',
         logo: {
@@ -17,14 +25,14 @@ export default defineConfig({
 
         sidebar: [
             {
-                text: 'Getting started',
+                text: '🚀 Getting started',
                 items: [
                     { text: 'What is Print.App', link: '/what-is-printapp' },
                     { text: 'Installation', link: '/installation/index' },
                 ],
             },
             {
-                text: 'Guides',
+                text: '📚 Guides',
                 items: [
                     { text: 'How to create a design', link: '/guides/create-design' },
                     { text: 'Smart Texts', link: '/guides/smart-texts' },
@@ -35,7 +43,7 @@ export default defineConfig({
                 ]
             },
             {
-                text: 'Solutions',
+                text: '✍️ Solutions',
                 items: [
                     { text: 'Stationeries', link: '/solutions/stationeries' },
                     { text: 'Photo Prints', link: '/solutions/photo-prints' },
@@ -47,14 +55,14 @@ export default defineConfig({
                 ]
             },
             {
-                text: 'Customization',
+                text: '🎨 Customization',
                 items: [
                     { text: 'Webhooks', link: '/customization/webhooks' },
                     { text: 'Configuration', link: '/customization/configuration' },
                 ]
             },
             {
-                text: 'Installation',
+                text: '🛠️ Installation',
                 items: [
                     { text: 'Wordpress', link: '/installation/wordpress' },
                     { text: 'Opencart', link: '/installation/opencart' },
@@ -68,10 +76,11 @@ export default defineConfig({
                 ]
             },
             {
-                text: 'Modules',
+                text: '🎁 Modules',
                 items: [
                     { text: 'Calendars', link: '/modules/calendars' },
-                    { text: 'Canvas Adjuster', link: '/modules/canvas-adjuster' },
+                    { text: 'Canvas Resize', link: '/modules/canvas-resize' },
+                    { text: 'Page Selector', link: '/modules/page-selector' },
                     { text: 'Product Colors', link: '/modules/product-colors' },
                     { text: 'Variable Data', link: '/modules/variable-data' },
                 ]
